@@ -1,5 +1,5 @@
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: Deploy Hugo site to Pages
+name: Deploy Hugo site to Strato FTP
 
 on:
   # Runs on pushes targeting the default branch
@@ -51,4 +51,20 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    environment: "Strato FTP"
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v4
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        local-dir: ./public/
+        server: 87.106.58.29
+        username: ${{ vars.FTP_USER }}
+        password: ${{ secrets.FTP_PASSWORD }}
 
