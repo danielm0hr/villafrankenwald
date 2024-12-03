@@ -1,0 +1,25 @@
+title : "Nutzungsformen"
+content: |
+  Die Villa ist <strong>flexibel</strong> und kann auf vielfältige Arten genutzt werden.
+style: "style1 medium onscroll-fade-in"
+items:
+  # feature item loop
+  - name : "Einfamilienhaus"
+    content : |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.
+    style : "style2 major fa-gem"
+    link: "#einfamilie"
+
+  # feature item loop
+  - name : "Mehrfamilienhaus"
+    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit."
+    style : "solid style2 major fa-save"
+    link: "#mehrfamilie"
+    
+  # feature item loop
+  - name : "Wohnen und Arbeiten"
+    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit."
+    style : "solid style2 major fa-chart-bar"
+    link: "#wohnenarbeiten"
+    
+  

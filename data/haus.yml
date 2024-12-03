@@ -1,0 +1,12 @@
+####################### Haus #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "Das Haus"
+subtitle: |
+  Ihre neue Villa im Frankenwald.
+content : |
+  Das <strong>Traumhaus</strong>, nach dem Sie schon lange gesucht haben. Leben, arbeiten, genießen im Frankenwald. 
+button:
+  label : "Nutzungsformen"
+  link : "#nutzung"
+image : "images/haus/haus2.jpg"
+
