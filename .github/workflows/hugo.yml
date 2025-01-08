@@ -67,11 +67,12 @@ jobs:
       uses: actions/download-artifact@v4
       with:
         name: public
+        path: public
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        local-dir: ./villafrankenwald/
+        local-dir: public/
         server: 87.106.58.29
         username: ${{ vars.FTP_USER }}
         password: ${{ secrets.FTP_PASSWORD }}
