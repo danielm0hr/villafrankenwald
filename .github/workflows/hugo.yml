@@ -72,7 +72,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        local-dir: public/
+        local-dir: villafrankenwald/public/
         server: 87.106.58.29
         username: ${{ vars.FTP_USER }}
         password: ${{ secrets.FTP_PASSWORD }}
