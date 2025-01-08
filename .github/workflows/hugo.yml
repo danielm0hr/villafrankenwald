@@ -63,7 +63,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: "Strato FTP"
     steps:
-    - name: Download math result for job 1
+    - name: Download public dir
       uses: actions/download-artifact@v4
       with:
         name: public
@@ -71,7 +71,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        local-dir: ./public/
+        local-dir: ./villafrankenwald/public/
         server: 87.106.58.29
         username: ${{ vars.FTP_USER }}
         password: ${{ secrets.FTP_PASSWORD }}
