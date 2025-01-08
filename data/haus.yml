@@ -1,10 +1,12 @@
 ####################### Haus #########################
 style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
-title : "Das Haus"
+title : "Ihre Traumimmobilie im Hofer Land"
 subtitle: |
-  Ihre neue Villa im Frankenwald.
+  Vielfältige Wohnmöglichkeiten im ehemaligen Pfarrhaus in Marlesreuth
 content : |
-  Das <strong>Traumhaus</strong>, nach dem Sie schon lange gesucht haben. Leben, arbeiten, genießen im Frankenwald. 
+  <p>Leben, arbeiten und genießen in Oberfranken.</p>
+  <p>Dieses Juwel macht all dies möglich. Das 2022 frisch sanierte Einfamilienhaus in mitten des Frankenwaldes bietet Ihnen vielfältige Nutzungsformen.</p>
+  <p>Vom großzügigen Einfamilienhaus, über das komfortable Generationen-Mehrfamilienhaus bis hin zur perfekten Lösung für Wohnen und Arbeiten – auf 308 Quadratmetern lässt sich Ihr Alltag perfekt umsetzen.</p> 
 button:
   label : "Nutzungsformen"
   link : "#nutzung"

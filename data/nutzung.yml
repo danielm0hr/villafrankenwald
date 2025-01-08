@@ -1,25 +1,32 @@
-title : "Nutzungsformen"
+title : "Fakten"
 content: |
-  Die Villa ist <strong>flexibel</strong> und kann auf vielfältige Arten genutzt werden.
+  Ausstattung und Eckdaten
 style: "style1 medium onscroll-fade-in"
 items:
   # feature item loop
-  - name : "Einfamilienhaus"
+  - name : "Smart Home"
     content : |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.
-    style : "style2 major fa-gem"
-    link: "#einfamilie"
+      Die Villa ist ausgestattet mit einem Loxone Smart Home System, das es erlaubt, Licht, Beschattung, Heizung, Lüftung, Alarm und Zutritt zentral und automatisiert zu steuern. Das Haus denkt mit und fährt z.B. bei direkter Sonneneinstrahlung die Raffstores automatisch auf die Beschattungsposition und steuert die Beleuchtung optimal abhängig von Tageszeit und Helligkeit. Das Gebäude verfügt außerdem über einen 1 Gigabit Glasfaseranschluss.
+    style : "solid style1 major fa-house-signal"
 
   # feature item loop
-  - name : "Mehrfamilienhaus"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit."
-    style : "solid style2 major fa-save"
-    link: "#mehrfamilie"
+  - name : "Energieeffizienz"
+    content : "Im Zuge der Renovierung wurde die historische Fassade, das Dach und die Bodenplatte aufwändig gedämmt. Die alten Fenster wurden vollständig gegen neue Holzfenster mit Dreifachverglasung ausgetauscht. Damit erfüllt die Gebäudehülle die Effizienzklasse A+. Geheizt wird mit einer Wärmepumpe von Viessmann und einem Gasbrennwertgerät, das Spitzenlasten im Winter abfängt. Eine zentrale Lüftungsanlage mit Wärmerückgewinnung sorgt für perfektes Raumklima im ganzen Haus, ohne die Fenster öffnen zu müssen."
+    style : "solid style1 major fa-bolt"
     
   # feature item loop
-  - name : "Wohnen und Arbeiten"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit."
-    style : "solid style2 major fa-chart-bar"
-    link: "#wohnenarbeiten"
-    
+  - name : "Details"
+    content : "Auf Details und Oberflächen wurde bei der Renovierung besonders viel Wert gelegt. Echtholz-Fischgrätparkett und Spachtelböden im ganzen Haus, flächenbündige Sockelleisten und Türen mit unsichtbarer Zarge, eine filigrane Schwarzstahl-Treppe, historisch korrekt wiederhergestellte Fensterformen, sowie die aufgearbeiteten original Dachbalken im Dachgeschoss bieten einen spannenden Kontrast aus historischer Baukunst und moderner Architektur."
+    style : "solid style1 major fa-asterisk"
+
+  - name : "Licht"
+    content : "Viel indirekte Beleuchtung, vollfarbig ansteuerbare und dimmbare Deckenspots in den meisten Räumen und effektvoll raumhoch und flächenbündig eingebaute LED-Lichtleisten im Flur und Treppenhaus bilden die Eckpfeiler des Beleuchtungskonzepts. Die stimmungsvolle Fassadenbeleuchtung ergänzt dieses perfekt."
+    style : "solid style1 major fa-lightbulb"
   
+  - name : "Kubus"
+    content : "Das architektonische Highlight der Villa ist zweifelsohne der über sechs Meter hohe Kubus, der in die vordere Fassade des Hauses mit viel Aufwand eingeschoben wurde. Dieser ermöglicht im Ober- und Dachgeschoss einen fantastischen Ausblick über den Frankenwald. Der Kubus besteht aus einer Holzkonstruktion mit Pfosten-Riegel-Fassade, Dreifachverglasung und einer Alucobond-Außenverkleidung."
+    style : "solid style1 major fa-cube"
+
+  - name : "Großzügigkeit"
+    content : "Im Rahmen der Renovierung wurde der Grundriss aller Geschosse signifikant verändert. Im Obergeschoss wurden die meisten Wände entfernt und Stahlträger eingezogen, um die statischen Lasten abzufangen. So entstand eine extrem großzügige Wohn-, Ess- und Kochsituation, die ihresgleich sucht. Das Dachgeschoß wurde so umgebaut, so dass drei Kinderzimmer, ein Kinderbad, sowie ein En-Suite Master-Bedroom mit Bad und Ankleide entstanden."
+    style : "solid style1 major fa-up-right-and-down-left-from-center"
