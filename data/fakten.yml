@@ -1,7 +1,7 @@
 title : "Fakten"
 content: |
   Ausstattung und Eckdaten
-style: "style1 medium onscroll-fade-in"
+style: "style1 medium onload-fade-in"
 items:
   # feature item loop
   - name : "Smart Home"

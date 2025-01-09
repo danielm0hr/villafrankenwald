@@ -1,0 +1,10 @@
+title: "Gallery"
+style: "style1 small lightbox onload-fade-in"
+content: ""
+pictures:
+  - image: "images/haus/grundriss_eg_einfamilie.jpg"
+    thumb: "images/haus/thumbs/grundriss_eg_einfamilie.jpg"
+  - image: "images/haus/grundriss_og.jpg"
+    thumb: "images/haus/thumbs/grundriss_og.jpg"
+  - image: "images/haus/grundriss_dg.jpg"
+    thumb: "images/haus/thumbs/grundriss_dg.jpg"

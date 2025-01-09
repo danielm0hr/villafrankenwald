@@ -1,5 +1,5 @@
 title: "Gallery"
-style: "style2 small lightbox onscroll-fade-in"
+style: "style2 small lightbox onload-fade-in"
 content: ""
 pictures:
   - image: "images/haus/gallery1.jpg"

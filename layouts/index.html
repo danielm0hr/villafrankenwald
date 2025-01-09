@@ -1,14 +1,17 @@
 {{ define "main" }}
 
 	{{ partial "haus" site.Data.haus }}
-	{{ partial "marlesreuth" site.Data.marlesreuth }}
+	{{ partial "marlesreuth" . }}
 	{{ partial "gallery" site.Data.hausgallery }}
-	{{ partial "frankenwald" site.Data.frankenwald }}
-	{{ partial "dashaus" site.Data.dashaus }}
-	{{ partial "nutzung" site.Data.nutzung }}
-	{{ partial "spotlight" site.Data.einfamilie }}
+	{{ partial "frankenwald" . }}
+	{{ partial "dashaus" . }}
+	{{ partial "fakten" site.Data.fakten }}
+	{{ partial "einfamilie" . }}
+	{{ partial "grundriss_einfamilie" site.Data.grundriss_einfamilie }}
+	{{ partial "footer" . }}
+	{{/*  {{ partial "spotlight" site.Data.einfamilie }}
 	{{ partial "spotlight" site.Data.mehrfamilie }}
-	{{ partial "spotlight" site.Data.wohnenarbeiten }}
+	{{ partial "spotlight" site.Data.wohnenarbeiten }}  */}}
 	{{/*  {{ partial "gallery" site.Data.gallery }}
 	{{ partial "items" site.Data.items }}
 	{{ partial "elements" . }}
