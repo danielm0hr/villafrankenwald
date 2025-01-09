@@ -7,7 +7,9 @@
 	{{ partial "dashaus" . }}
 	{{ partial "fakten" site.Data.fakten }}
 	{{ partial "einfamilie" . }}
-	{{ partial "grundriss_einfamilie" site.Data.grundriss_einfamilie }}
+	{{ partial "grundriss_einfamilie" . }}
+	{{ partial "mehrfamilie" . }}
+	{{ partial "grundriss_mehrfamilie" . }}
 	{{ partial "footer" . }}
 	{{/*  {{ partial "spotlight" site.Data.einfamilie }}
 	{{ partial "spotlight" site.Data.mehrfamilie }}
