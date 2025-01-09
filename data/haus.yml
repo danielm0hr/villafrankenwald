@@ -2,13 +2,13 @@
 style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
 title : "Ihre Traumimmobilie im Hofer Land"
 subtitle: |
-  Vielfältige Wohnmöglichkeiten im ehemaligen Pfarrhaus in Marlesreuth
+  Vielfältige Wohnmöglichkeiten im ehemaligen Pfarrhaus in <a href="#marlesreuth">Marlesreuth</a>
 content : |
   <p>Leben, arbeiten und genießen in Oberfranken.</p>
-  <p>Dieses Juwel macht all dies möglich. Das 2022 frisch sanierte Einfamilienhaus in mitten des Frankenwaldes bietet Ihnen vielfältige Nutzungsformen.</p>
-  <p>Vom großzügigen Einfamilienhaus, über das komfortable Generationen-Mehrfamilienhaus bis hin zur perfekten Lösung für Wohnen und Arbeiten – auf 308 Quadratmetern lässt sich Ihr Alltag perfekt umsetzen.</p> 
+  <p>Dieses Juwel macht all dies möglich. Das 2022 <a href="#dashaus">frisch sanierte Einfamilienhaus</a> in mitten des <a href="#frankenwald">Frankenwaldes</a> bietet Ihnen vielfältige Nutzungsformen.</p>
+  <p>Vom großzügigen <a href="#einfamilie">Einfamilienhaus</a>, über das komfortable <a href="#mehrfamilie">Generationen-Mehrfamilienhaus</a> bis hin zur perfekten Lösung für <a href="#gewerbe">Wohnen und Arbeiten</a> – auf 308 Quadratmetern lässt sich Ihr Alltag perfekt umsetzen.</p> 
 button:
-  label : "Nutzungsformen"
-  link : "#nutzung"
+  label : "Kontakt"
+  link : "#contact"
 image : "images/haus/haus2.jpg"
 
